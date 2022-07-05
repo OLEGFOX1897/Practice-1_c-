@@ -28,3 +28,15 @@ int number = Convert.ToInt32(Console.ReadLine ());
 if (number%2==0) Console.WriteLine ("Yes. This number share on 2");
 else Console.WriteLine ("No. This number no share on 2");
 
+// Task №8
+Console.WriteLine ("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine ());
+int index=1;
+while (index<=number)
+{
+    if (index%2==0)
+    {
+        Console.WriteLine(index);
+    }
+        index++;   
+}
